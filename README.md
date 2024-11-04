@@ -17,6 +17,8 @@ npx dotenv sequelize db:migrate
 to start backend, run npm start
 to start frontend, run npm run dev
 
+npm run build in frontend to generate index.js file.
+
 ## Database Schema Design
 
 ![airbnb-database-schema]
