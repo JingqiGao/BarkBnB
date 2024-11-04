@@ -1,5 +1,22 @@
 # AirDnD
 
+## Setup
+In the `backend` folder, create a `.env` file that will be used to define your environment variables.
+
+Populate the `.env` file based on the example below:
+
+```plaintext
+PORT=8000
+DB_FILE=db/dev.db
+JWT_SECRET=«generate_strong_secret_here»
+JWT_EXPIRES_IN=604800
+SCHEMA=airdnd_schema
+
+npx dotenv sequelize db:migrate
+
+to start backend, run npm start
+to start frontend, run npm run dev
+
 ## Database Schema Design
 
 ![airbnb-database-schema]
