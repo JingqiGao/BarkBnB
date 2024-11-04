@@ -58,7 +58,7 @@ function Navigation({ isLoaded }) {
             }}
               className='navbar-logo'
               // src='../../images/IMG_0228.JPG'
-              src='../../dist/favicon.ico'
+              src='../../dist/assets/barkbnb.webp'
               // src='../../dist/IMG_0228-868d335f'
               alt='dog-logo-image'
               onClick={()=> {
